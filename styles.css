@@ -85,6 +85,19 @@ header img {
     border-radius: 8px;
 }
 
+.barcode-container {
+  display: flex;
+  justify-content: center; /* محاذاة أفقية للمنتصف */
+  align-items: center; /* محاذاة عمودية للمنتصف */
+  margin-bottom: 15px; /* مسافة بين الباركود والوصف */
+}
+
+.barcode-image {
+  width: 100px; /* عرض الباركود */
+  height: auto; /* الحفاظ على النسبة */
+}
+
+
 .description {
   margin-top: 5px;
   margin-bottom: 15px; /* إضافة مسافة أسفل الوصف */
